@@ -66,6 +66,7 @@ class BrainTests: XCTestCase {
         let result = brain.check(1)
         XCTAssertEqual(result, "\(1)")
     }
+
 }
 
 

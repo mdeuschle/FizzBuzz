@@ -1,14 +1,14 @@
 //
-//  FizzBuzzUITests.swift
+//  ViewControllerUITests.swift
 //  FizzBuzzUITests
 //
-//  Created by Matt Deuschle on 6/17/18.
+//  Created by Matt Deuschle on 6/24/18.
 //  Copyright © 2018 Matt Deuschle. All rights reserved.
 //
 
 import XCTest
 
-class FizzBuzzUITests: XCTestCase {
+class ViewControllerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
