@@ -11,14 +11,12 @@ import Foundation
 class Game {
 
     let brain = Brain()
-
     var score: Int
-
     init() {
         score = 0
     }
 
-    func play(move: String) -> (right: Bool, score: Int) {
+    func play(move: Move) -> (right: Bool, score: Int) {
         let result = brain.check(score + 1)
         if move == result {
             score += 1

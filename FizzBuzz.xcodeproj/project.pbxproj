@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A80B931220E05B9000A861B3 /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B931120E05B9000A861B3 /* ViewControllerUITests.swift */; };
+		A80B931420E0888300A861B3 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80B931320E0888300A861B3 /* Move.swift */; };
 		A887D4ED20D6F50B00FC9B1A /* GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887D4EC20D6F50B00FC9B1A /* GameTests.swift */; };
 		A887D4EF20D6F5BE00FC9B1A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A887D4EE20D6F5BE00FC9B1A /* Game.swift */; };
 		A8DB244F20D6CF9900C19C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB244E20D6CF9900C19C5C /* AppDelegate.swift */; };
@@ -17,7 +19,6 @@
 		A8DB248020D6D38000C19C5C /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB247F20D6D38000C19C5C /* BrainTests.swift */; };
 		A8DB248220D6D3F200C19C5C /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DB248120D6D3F200C19C5C /* Brain.swift */; };
 		A8F9FC0720DDD3EA0005D336 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9FC0620DDD3EA0005D336 /* ViewControllerTests.swift */; };
-		A8F9FC0920E041C20005D336 /* ViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F9FC0820E041C20005D336 /* ViewControllerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A80B931120E05B9000A861B3 /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
+		A80B931320E0888300A861B3 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		A887D4EC20D6F50B00FC9B1A /* GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTests.swift; sourceTree = "<group>"; };
 		A887D4EE20D6F5BE00FC9B1A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		A8DB244B20D6CF9900C19C5C /* FizzBuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FizzBuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,7 +57,6 @@
 		A8DB247F20D6D38000C19C5C /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
 		A8DB248120D6D3F200C19C5C /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		A8F9FC0620DDD3EA0005D336 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
-		A8F9FC0820E041C20005D336 /* ViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +132,7 @@
 		A8DB246D20D6CF9900C19C5C /* FizzBuzzUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A8F9FC0820E041C20005D336 /* ViewControllerUITests.swift */,
+				A80B931120E05B9000A861B3 /* ViewControllerUITests.swift */,
 				A8DB247020D6CF9900C19C5C /* Info.plist */,
 			);
 			path = FizzBuzzUITests;
@@ -157,6 +159,7 @@
 			children = (
 				A8DB248120D6D3F200C19C5C /* Brain.swift */,
 				A887D4EE20D6F5BE00FC9B1A /* Game.swift */,
+				A80B931320E0888300A861B3 /* Move.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A80B931420E0888300A861B3 /* Move.swift in Sources */,
 				A8DB245120D6CF9900C19C5C /* ViewController.swift in Sources */,
 				A8DB248220D6D3F200C19C5C /* Brain.swift in Sources */,
 				A8DB244F20D6CF9900C19C5C /* AppDelegate.swift in Sources */,
@@ -318,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F9FC0920E041C20005D336 /* ViewControllerUITests.swift in Sources */,
+				A80B931220E05B9000A861B3 /* ViewControllerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

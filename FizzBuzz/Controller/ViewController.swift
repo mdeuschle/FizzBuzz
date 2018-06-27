@@ -10,18 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var gameScore: Int?
+    @IBOutlet weak var scoreButton: UIButton!
+
+    var gameScore: Int? {
+        didSet {
+            guard let gameScore = gameScore else { return }
+            scoreButton.setTitle("\(gameScore)", for: .normal)
+        }
+    }
     var game: Game?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         game = Game()
+        guard let game = game else { return }
+        gameScore = game.score
     }
 
-    func play(move: String) {
+    func play(move: Move) {
         guard let game = game else { return }
         let response = game.play(move: move)
         gameScore = response.score
+    }
+
+    @IBAction func scoreButtonTapped(_ sender: UIButton) {
+        play(move: .number)
     }
 }
 
